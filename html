@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>timer</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css'>
+<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="pom paused">
+    <h1 id="motivator" class="text-center">Ready, set<span>...</span></h1>
+    <h4 id="countdown" class="text-center">25:00</h4>
+    <div class="progress"><div class="progress-bar"></div></div>
+    <div class="controls">
+        <div class="col animated fadeInUp">
+            <p class="text-center">Work</p>
+            <div class="control-group">
+                <button value="-1" data="work" class="btn-time btn-work-time">&minus;</button>
+                <span id="workTime">25</span>
+                <button value="+1" data="work" class="btn-time btn-work-time">&plus;</button>
+            </div>
+        </div>
+        <div class="col">
+            <button class="btn-main" style="display: table; margin: 0 auto;">
+                <i class="fa fa-play"></i>
+            </button>
+        </div>
+        <div class="col animated fadeInUp">
+            <p class="text-center">Play<p>
+            <div class="control-group">
+                <button value="-1" data="play" class="btn-time btn-play-time">&minus;</button>
+                <span id="playTime">5</span>
+                <button value="+1" data="play" class="btn-time btn-play-time">&plus;</button>
+            </div>
+        </div>
+    </div>
+    <p class="text-center copyright">Coded by <a href="https://codepen.io/MR-Don">Satyam vishwakarma</a></p>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
+        
